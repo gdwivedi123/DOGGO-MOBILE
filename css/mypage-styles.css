@@ -1,0 +1,185 @@
+body{
+  margin : 0;
+  background-color: #e3e7f1;
+}
+h1
+{
+  margin: 30px auto 30px auto;
+  font-size: 300%;
+  font-family: 'Sacramento', cursive;
+  color : #40e0d0;
+}
+h2
+{
+  font-weight : normal;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #40e0d0;
+  margin-bottom : 30px;
+  margin-top : 30px;
+}
+p{
+  font-weight : normal;
+  font-family: 'Balsamiq Sans', cursive;
+}
+hr
+{
+  border : 5px dotted grey;
+  border-bottom : none;
+  width : 10%;
+}
+.pic
+{
+  display : block;
+  margin : auto;
+}
+.top
+{
+  background-color: #edf7fa;
+  position: relative;
+  text-align: center;
+  margin : 0;
+  padding-top : 50px;
+}
+.cloud-right-pic
+{
+  /* position: absolute;
+  right : 300px;
+  top : 50px;*/
+  text-align : right;
+  margin-right : 20%;
+  margin-bottom : 20px;
+}
+.cloud-left-pic
+{
+ /* position: absolute;
+ left : 300px;
+ bottom : 300px; */
+ text-align : left;
+ margin-left : 20%;
+ margin-top : 20px;
+}
+.profile
+{
+  padding : 50px;
+  width : 50%;
+  line-height: 2;
+  margin : auto;
+  text-align: center;
+}
+.profile-pic
+{
+  border-radius : 100%;
+  height : 200px;
+  width : 200px;
+  margin-bottom: 30px;
+}
+.Education,.Coding
+{
+  width : 50%;
+  text-align: center;
+  margin : 70px auto;
+}
+.education-pic
+{
+  border-radius : 100%;
+  height : 200px;
+  width : 200px;
+  margin-bottom: 30px;
+}
+.coding-pic
+{
+  border-radius : 100%;
+  height : 200px;
+  width : 200px;
+  margin-bottom : 20px;
+}
+.row
+{
+  margin : 10%;
+}
+.left-col
+{
+  margin-right : 30px;
+}
+.mountain
+{
+  width : 60%;
+}
+a{
+  text-decoration: none;
+  font-weight : normal;
+  color : black;
+  font-family: 'Balsamiq Sans', cursive;
+}
+a:hover
+{
+  color : orange;
+}
+.H2
+{
+  margin-bottom: 30px;
+}
+.leetcode {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:9px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Balsamiq Sans', cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.leetcode:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.leetcode:active {
+	position:relative;
+	top:1px;
+}
+.hackerrank {
+	background-color:#44c767;
+	border-radius:9px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Balsamiq Sans', cursive;
+	font-size:15px;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.hackerrank:hover {
+	background-color:#5cbf2a;
+  color : black;
+}
+.hackerrank:active {
+	position:relative;
+	top:1px;
+}
+@@media (max-width : 970px) {
+  .education-pic, .coding-pic
+  {
+    float : none;
+  }
+}
+@media (max-width : 400px)
+{
+  .cloud-right-pic
+  {
+    margin-right : 0;
+    text-align : center;
+  }
+  .cloud-left-pic
+  {
+    margin-left : 0;
+    text-align: center;
+  }
+}
